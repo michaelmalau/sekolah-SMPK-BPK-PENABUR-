@@ -1,1 +1,0 @@
-# sekolah-SMPK-BPK-PENABUR-

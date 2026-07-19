@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMPK BPK PENABUR  - Mengukir Prestasi, Menjunjung Budaya</title>
+    <!-- Font Keren dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Link ke file CSS luar -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGASI -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">SMPK <span>BPK PENABUR  </span></div>
+            <ul class="nav-links">
+                <li><a href="#beranda" class="active">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#fasilitas">Fasilitas</a></li>
+                <li><a href="#prestasi">Prestasi</a></li>
+                <li><a href="#kontak" class="btn-kontak">Hubungi Kami</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION (HALAMAN DEPAN) -->
+    <section id="beranda" class="hero-section">
+        <div class="hero-content">
+            <h1>Masa Depan Cerah Dimulai Di Sini</h1>
+            <p>Membentuk generasi unggul yang cerdas, berkarakter, dan siap menghadapi tantangan global era digital.</p>
+            <div class="hero-buttons">
+                <a href="#profil" class="btn-primary">Jelajahi Profil</a>
+                <a href="#pendaftaran" class="btn-secondary">PPDB Online</a>
+            </div>
+        </div>
+        <!-- Efek visual lingkaran dekorasi di latar belakang -->
+        <div class="circle-drop drop-1"></div>
+        <div class="circle-drop drop-2"></div>
+    </section>
+
+    <!-- STATISTIK SEKOLAH (INTERAKTIF DENGAN JS) -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3 class="counter" data-target="1200">0</h3>
+                <p>Siswa Aktif</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="75">0</h3>
+                <p>Guru & Staf</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="24">0</h3>
+                <p>Ekstrakurikuler</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="45">0</h3>
+                <p>Penghargaan Nasional</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFIL / SAMBUTAN -->
+    <section id="profil" class="profile-section">
+        <div class="container">
+            <h2>Sambutan Kepala Sekolah</h2>
+            <div class="line"></div>
+            <div class="profile-grid">
+                <div class="profile-text">
+                    <h3>"Pendidikan bukan sekadar mengisi wadah, tapi menyalakan api."</h3>
+                    <p>Selamat datang di official website SMA Nusa Bangsa. Kami berkomitmen untuk menyediakan lingkungan belajar yang inklusif, inovatif, dan menantang agar setiap siswa dapat menemukan dan mengembangkan potensi terbaik mereka.</p>
+                    <p>Melalui integrasi teknologi dan nilai-nilai luhur, kami siap mengantar putra-putri Anda menuju gerbang kesuksesan global.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FASILITAS / KEUNGGULAN -->
+    <section id="fasilitas" class="facilities-section">
+        <div class="container">
+            <h2>Fasilitas Unggulan</h2>
+            <div class="line"></div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">🔬</div>
+                    <h3>Lab Modern</h3>
+                    <p>Laboratorium Fisika, Kimia, Biologi, dan Komputer berspesifikasi tinggi untuk mendukung riset siswa.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📚</div>
+                    <h3>Perpustakaan Digital</h3>
+                    <p>Ribuan koleksi buku fisik dan akses e-book gratis yang bisa diakses kapan saja oleh siswa.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏀</div>
+                    <h3>Sport Center</h3>
+                    <p>Lapangan basket, futsal, dan badminton indoor yang luas untuk mendukung prestasi olahraga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="kontak">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>SMP BPK PENABUR </h3>
+                <p>Jl. M.K. Wiganda Sasmita No.23.</p>
+                <p>Email:smpkbpkpenaburcimahi@gmail.com</p>
+                <p>Telp: (022) 6654991 </p>
+            </div>
+            <div class="footer-links">
+                <h4>Tautan Cepat</h4>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#profil">Profil Sekolah</a></li>
+                    <li><a href="#fasilitas">Fasilitas</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SMA Nusa Bangsa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link ke file JavaScript luar -->
+    <script src="script.js"></script>
+</body>
+</html>
